@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "name": "nested",
+      "type": "com.example.myspringboot.NestedProperties",
+      "sourceType": "com.example.myspringboot.NestedProperties"
+    },
+    {
+      "name": "nested.a",
+      "type": "com.example.myspringboot.NestedProperties$A",
+      "sourceType": "com.example.myspringboot.NestedProperties",
+      "sourceMethod": "getA()"
+    },
+    {
+      "name": "product",
+      "type": "com.example.myspringboot.DemoApplication",
+      "sourceType": "com.example.myspringboot.DemoApplication"
+    },
+    {
+      "name": "simple",
+      "type": "com.example.myspringboot.SimpleProperties",
+      "sourceType": "com.example.myspringboot.SimpleProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "simple.a",
+      "type": "java.lang.String",
+      "sourceType": "com.example.myspringboot.SimpleProperties"
+    }
+  ],
+  "hints": []
+}
